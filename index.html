@@ -8,6 +8,7 @@
 	<link href="slideshow.css" rel="stylesheet" />
 	<link href="theme.css" rel="stylesheet" />
 	<link href="talk.css" rel="stylesheet" />
+	<link href="jquery-ui-1.10.3.custom.min.css" rel="stylesheet" />
 	<script src="prefixfree.min.js"></script>
 </head>
 <body data-duration="10">
@@ -41,10 +42,21 @@
 		<ul>
 			<li class="delayed">La leyes</li>
 			<li class="delayed">La Constitución</li>
-			<li class="delayed">Dios</li>
+			<li class="delayed">Dios <span class="delayed"> (ética cristiana)</span></li>
 			<li class="delayed">El entorno</li>
 		</ul>
 		<p>¿En qué basas tu bondad?</p>
+	</section>
+
+	<section class="slide" title="CSSS: Introduction">
+		<h2>¿Qué es ser bueno para la ética cristiana?</h2>
+		<ul>
+			<li class="delayed">Dios</li>
+			<ul>
+				<li class="delayed">Seguimiento de la Biblia</li>
+			</ul>
+		</ul>
+		<p>Es basar tus acciones en valores absolutos</p>
 	</section>
 </section>
 
@@ -57,21 +69,92 @@
 		<h2>Encuesta</h2>
 		<p>¿Piensas que si los demás no son buenos, tú tampoco deberías?</p>
 		<ul>
-			<li class="delayed">Sí <span class="delayed">( 0 )</span> </li>
-			<li class="delayed">No <span class="delayed">( 42 )</span></li>
-			<li class="delayed">Tal vez <span class="delayed">( 4 )</span></li>
-			<li class="delayed">No sé <span class="delayed">( 4 )</span></li>
+			<li class="delayed">Sí ( 0 )</li>
+			<li class="delayed">No ( 42 )</li>
+			<li class="delayed">Tal vez ( 4 )</li>
+			<li class="delayed">No sé ( 4 )</li>
 		</ul>
-		<p class="delayed"></p>
 	</section>
 	
 	<section class="slide">
-		<h2>Timer</h2>
+		<h2>Encuesta</h2>
 		<ul>
-			<li>Timer in the form of a progress bar on the top</li>
-			<li>Define the talk duration with the attribute <code>data-duration</code> on the <code>body</code></li>
-			<li>Style the timer and the end state with the selectors <code>#timer</code> and <code>#timer.end</code> respectively.</li>
+			<li class="delayed">Circunstancias ( 13 )</li>
+			<li class="delayed">Desean hacer el mal ( 2 )</li>
+			<li class="delayed">Falta de fundamentos cristianos ( 11 )</li>
+			<li class="delayed">Es más fácil hacer lo malo ( 24 )</li>
 		</ul>
+		<p>¿Porqué crees que muchas personas aún conociendo que hacer algo malo no es aceptado por nuestra sociedad, lo hacen?</p>
+	</section>
+	
+	<section class="slide">
+		<h2>Encuesta</h2>
+		<ul>
+			<li class="delayed">La constitución ( 1 )</li>
+			<li class="delayed">La Santa Biblia ( 45 )</li>
+			<li class="delayed">Un libro de ética ( 3 )</li>
+			<li class="delayed">Una revista ( 1 )</li>
+		</ul>
+		<p>¿Cuál de estos textos a tu criterio define lo bueno y lo malo?</p>
+	</section>
+	
+	<section class="slide">
+		<h2>Encuesta</h2>
+		<ul>
+			<li class="delayed">Responsabilidad ( 8 )</li>
+			<li class="delayed">Solidaridad ( 15 )</li>
+			<li class="delayed">Honestidad ( 13 )</li>
+			<li class="delayed">Compasión ( 5 )</li>
+			<li class="delayed">Cristianismo ( 8 )</li>
+			<li class="delayed">Todos ( 1 )</li>
+		</ul>
+		<p>De los siguientes valores, ¿Cuál has practicado porque crees que es bueno?</p>
+	</section>
+	
+	<section class="slide">
+		<h2>Encuesta</h2>
+		<p>De los siguientes antivalores,¿En cuáles reincides con mayor frecuencia?</p>
+		<ul>
+			<li class="delayed">Odio ( 10 )</li>
+			<li class="delayed">Deshonestidad ( 5 )</li>
+			<li class="delayed">Pereza ( 29 )</li>
+			<li class="delayed">Arrogancia ( 6 )</li>
+		</ul>
+	</section>
+	
+	<section class="slide">
+		<h2>Encuesta</h2>
+		<p>¿Has sentido la presión de grupo antes de realizar algo que no este correcto?</p>
+		<ul>
+			<li class="delayed">Sí ( 23 )</li>
+			<li class="delayed">No ( 20 )</li>
+			<li class="delayed">Algunas veces ( 5 )</li>
+			<li class="delayed">No contestó ( 2 )</li>
+		</ul>
+	</section>
+	
+	<section class="slide">
+		<h2>Videos Encuestas</h2>
+		<video src="videos/1.MOV" width="568px" preload controls></video>
+		<p>¿Por qué deberíamos ser buenos si los demás no lo son?</p>
+	</section>
+	
+	<section class="slide">
+		<h2>Videos Encuestas</h2>
+		<video src="videos/2.MOV" width="568px" preload controls></video>
+		<p>¿Por qué deberíamos ser buenos si los demás no lo son?</p>
+	</section>
+	
+	<section class="slide">
+		<h2>Videos Encuestas</h2>
+		<video src="videos/3.MOV" width="568px" preload controls></video>
+		<p>¿Por qué deberíamos ser buenos si los demás no lo son?</p>
+	</section>
+	
+	<section class="slide">
+		<h2>Videos Encuestas</h2>
+		<video src="videos/4.MOV" width="568px" preload controls></video>
+		<p>¿Por qué deberíamos ser buenos si los demás no lo son?</p>
 	</section>
 	
 	<section class="slide">
@@ -233,6 +316,8 @@ document.addEventListener('DOMAttrModified',function(e) {
 <script src="plugins/css-snippets.js"></script>
 <script src="plugins/css-controls.js"></script>
 <script src="plugins/code-highlight.js"></script>
+<!-- <script src="jquery-1.9.1.js"></script> -->
+<!-- <script src="jquery-ui-1.10.3.custom.min.js"></script> -->
 <script>
 var slideshow = new SlideShow();
 
