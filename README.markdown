@@ -1,5 +1,6 @@
-# CSSS
-### CSS-based SlideShow System
+# Presentación final de ética
+### Hecho con CSS-based SlideShow System
 
-Warning: Only works in latest Firefox, Opera, Safari or Chrome.
-For more information, see the [sample slideshow](http://lea.verou.me/csss/sample-slideshow.html) 
+Presentación final para la clase de ética UEES, por favor descargarlo y probarlo ustedes mismos en sus máquinas o hacer un fork y ayudarme a hacerla más chiva, ideas son más que bienvenidad.
+
+Twitter-> [@eduarmreyes](https://twitter.com/eduarmreyes) 
