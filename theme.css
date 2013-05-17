@@ -115,7 +115,7 @@ strong, b {
 		letter-spacing: -.03em;
 	}
 		
-	.slide > ul {
+	.slide > ul, .slide > .answers > ul {
 		list-style:none;	
 	}
 	
@@ -136,7 +136,7 @@ strong, b {
 			margin:.2em 0;
 		}
 		
-		.slide > ul > li:before {
+		.slide > ul > li:before, .slide > .answers > ul > li:before {
 			content:'\2714';
 			color: #a0c12c;
 			padding-right: .2em;
