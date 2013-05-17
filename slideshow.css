@@ -248,8 +248,8 @@ button.onscreen-nav {
 	transition: linear;
 }
 
-	#timer:before {
-		content: 'Progress ';
+#timer:before {
+		content: 'Progreso ';
 		text-transform: uppercase;
 		color: white;
 		font-size: 9px;
